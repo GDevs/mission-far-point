@@ -1,0 +1,11 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: OGRE-Bites
+Description: Bites component for OGRE
+Version: 1.10.3
+Requires: OGRE = 1.10.3 , sdl2
+Libs: -L${libdir} -lOgreBites
+Cflags: -I${includedir}/OGRE/Bites -pthread
