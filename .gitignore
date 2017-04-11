@@ -97,5 +97,6 @@ CTestTestfile.cmake
 
 
 ########## own ignores
-.\ogre_build
+ogre_build/
+/bin
 mission_farpoint
